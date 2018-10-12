@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a3cefb">
+
+    <!-- This layout will contain one image for flag and one textview for country name -->
+
+    <ImageView
+        android:id="@+id/image_view_flag"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/gbr_the_united_kingdom" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/image_view_flag"
+        android:layout_toRightOf="@id/image_view_flag"
+        android:gravity="center"
+        android:text="The United Kingdom"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>
